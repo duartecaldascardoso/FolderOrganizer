@@ -19,3 +19,11 @@ With that command we organize the folders by:
 If we want to organize the contents using the AI agent we must:
 - use the sub-command `-ai` that will use the AI agent to organize the files
 - have an API key defined in the environment variable `AI_API_KEY`
+
+The AI agent will be implemented as a graph, with nodes for handling with different types of prompts and directory structures.
+
+This can be based on:
+- complexity
+- number of files
+- file types
+- file sizes
