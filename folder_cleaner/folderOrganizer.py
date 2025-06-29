@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from typing import Optional
+from logging import log
 
 """
 Idea: 
@@ -10,6 +11,7 @@ This allows for method chaining, enabling users to call multiple organizing meth
 """
 
 def organize_alphabetically(directory: Path):
+
     pass
 
 
