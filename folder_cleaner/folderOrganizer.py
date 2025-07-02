@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 from typing import Optional
-from logging import log
 
 """
 Idea: 
@@ -10,8 +9,8 @@ This means that each method should return the directory object itself after perf
 This allows for method chaining, enabling users to call multiple organizing methods in a single line.
 """
 
-def organize_alphabetically(directory: Path):
 
+def organize_alphabetically(directory: Path):
     pass
 
 

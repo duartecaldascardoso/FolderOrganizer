@@ -26,18 +26,18 @@ export default function ProductPageComponent() {
             fontSize={{ base: '3xl', sm: '5xl', md: '6xl' }}
             lineHeight="110%">
             Organize your folders <br />
-            <Text as="span" color="purple.400">
+            <Text as="span" color="purple.400" textDecorationLine={'underline'}>
               with intelligence
             </Text>
           </Heading>
 
           <Text fontSize="lg">
-            This tool uses AI to automatically organize your files and folders,
-            making it to adapt your workspace to your intentions and daily usage. 
+            SmartSort uses AI to automatically organize your workspace,
+            making it adapt to your intentions and daily usage. 
           </Text>
 
           <Stack
-            direction={{ base: 'column', sm: 'row' }}
+            direction={{sm: 'row' }}
             gap={4}
             justify="center"
             align="center"
@@ -47,7 +47,7 @@ export default function ProductPageComponent() {
               rounded="full"
               px={8}
               size="lg"
-              _hover={{ bg: 'green.500' }}>
+              _hover={{ bg: 'purple.500' }}>
               Get Started
             </Button>
           </Stack>
