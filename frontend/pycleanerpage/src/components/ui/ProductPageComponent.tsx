@@ -32,7 +32,7 @@ export default function ProductPageComponent() {
           </Heading>
 
           <Text fontSize="lg">
-            SmartSort uses AI to automatically organize your workspace,
+            SmartSort uses AI to explore your workspace and organize your files and folders,
             making it adapt to your intentions and daily usage. 
           </Text>
 
